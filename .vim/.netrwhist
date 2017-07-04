@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/sophia/git/automatic-text-categorization'
+let g:netrw_dirhist_2='/Users/sophia/git/node.js/test'
+let g:netrw_dirhist_3='/Users/sophia/git/node.js/test/tcp_server'
+let g:netrw_dirhist_4='/Users/sophia/git/node.js/test/test'
+let g:netrw_dirhist_5='/Users/sophia/git/node.js/test/test/init/routes'
+let g:netrw_dirhist_6='/Users/sophia/git/node.js/test/thenjs/node_modules'
+let g:netrw_dirhist_7='/Users/sophia/git/node.js/test/thenjs'
+let g:netrw_dirhist_8='/Users/sophia/git/node.js/test/then.js/test'
