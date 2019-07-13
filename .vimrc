@@ -129,5 +129,14 @@ set nu
 syntax on
 set shiftwidth=4
 
-
+map ft :call FormatCode()<CR>
+    func! FormatCode()
+        exec "w" 
+        if &filetype == 'C' || &filetype == 'h' 
+            exec "!astyle --style=google %"
+        elseif &filetype == 'cpp' || &filetype == 'cc'
+            exec "!astyle --style=google %"    
+            return
+        endif
+    endfunc
 
